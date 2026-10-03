@@ -1,0 +1,267 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+background-color:#000000;
+    color:white;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: 'segoe UI' ,sans-serif;
+    
+}
+.overall{
+    width: 100%;
+    padding: 10px;
+}
+
+.sub{
+    width: 100%;
+   margin-top: 20px;
+    padding: 20px;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 5px orange;
+   
+}
+
+.up{
+    text-align: center;
+    /* color: orange; */
+    margin-bottom: 10px;
+}
+
+.one{
+    height: 150px;
+    width: 100%;
+    border: 1px dashed orange;
+    padding: 20px;
+    /* position: relative; */
+   
+}
+
+.scan-head{
+    text-align: center;
+    color: orange;
+}
+
+.scan-para{
+    font-size: 20px;
+    text-align: center;
+}
+
+.one span i{
+    font-size: 50px;
+   
+   position: relative;
+   left: 47%;
+   
+   color: orange;
+}
+
+.p1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.p2{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.p3{
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.line-1{
+    height: 1px;
+    width: 20%;
+    background-color: gray;
+    display: block;
+    position: relative;
+    left: 20%;
+    top: -10px;
+}
+
+.line-2{
+    left:60%;
+}
+
+.button{
+    width: 100%;
+    /* border: 1px solid gray; */
+     position: relative;
+     margin-top: 30px;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 40px;
+      /* position: relative; */
+}
+
+.button i{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    /* top: -20%; */
+    left: 45%;
+     height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 6px;
+    transform: translateY(-30px);
+   
+}
+
+.button h3{
+    text-align: center;
+    
+}
+
+.button p{
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.scan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.two{
+    padding: 10px;
+    width: 30%;
+    border: 1px solid white;
+     border-radius: 10px;
+     
+     
+   
+   
+}
+
+.two-2{
+
+     padding: 10px;
+    width: 30%;
+    border: 1px solid white;
+     border-radius: 10px;
+   
+}
+
+.btn{
+    border: none;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 300px;
+    padding: 10px;
+    display: block;
+    transform: translateX(500px);
+    margin-top: 20px;
+}
+
+.last{
+   font-size: 13px;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.round{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+     transform: translateX(1156px);
+}
+
+.arrow{
+    font-size: 30px;
+    padding: 10px 13px;
+    animation: abc 0.5s;
+}
+
+.round:hover{
+    background-color: orange;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+/*-------------------------------------------------------*/
+@media only screen and (min-width:600px) and (max-width:900px)
+{
+    .line-1{
+        left: 10%;
+    }
+    
+    .line-2{
+        left: 70%;
+    }
+
+    .two-2 {
+    padding: 10px;
+    width: 50%;
+    }
+
+    .two{
+        width: 50%;
+    }
+
+    .btn{
+        transform: translateX(120px);
+    }
+
+    .round {
+    transform: translateX(504px);
+    }
+}
+
+/*-------------------------------------------------------*/
+@media only screen and (min-width:300px) and (max-width:600px)
+{
+
+
+    .p1 {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.one span i {
+    transform: translateX(-18px);
+}
+
+.line-1{
+    display: none;
+}
+
+.button{
+    flex-direction: column;
+}
+
+.two {
+    padding: 10px;
+    width: 120%;
+}
+
+.two-2 {
+    padding: 10px;
+    width: 120%;
+}
+
+.round {
+    transform: translateX(216px);
+}
+
+}
